@@ -188,25 +188,25 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <inputFile>${project.build.directory}/jmeter/results/qs_tag.jtl</inputFile>
+                    <inputFile>${project.build.directory}/jmeter/results/google_home.jtl</inputFile>
                     <graphs>
                         <graph>
                             <pluginType>ThreadsStateOverTime</pluginType>
                             <width>800</width>
                             <height>600</height>
-                            <outputFile>${project.build.directory}/jmeter/results/qs_tag-ThreadsStateOverTime.png</outputFile>
+                            <outputFile>${project.build.directory}/jmeter/results/google_home-ThreadsStateOverTime.png</outputFile>
                         </graph>
                         <graph>
                             <pluginType>ResponseTimesOverTime</pluginType>
                             <width>800</width>
                             <height>600</height>
-                            <outputFile>${project.build.directory}/jmeter/results/qs_tag-ResponseTimesOverTime.png</outputFile>
+                            <outputFile>${project.build.directory}/jmeter/results/google_home-ResponseTimesOverTime.png</outputFile>
                         </graph>
                         <graph>
                             <pluginType>TransactionsPerSecond</pluginType>
                             <width>800</width>
                             <height>600</height>
-                            <outputFile>${project.build.directory}/jmeter/results/qs_tag-TransactionsPerSecond.png</outputFile>
+                            <outputFile>${project.build.directory}/jmeter/results/google_home-TransactionsPerSecond.png</outputFile>
                         </graph>
                    </graphs>
                 </configuration>
